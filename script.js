@@ -121,3 +121,9 @@ function updateBorder() {
 }
 
 updateCircle(params.noOfCircle);
+
+
+
+
+// Credit
+console.info('tutorial', 'https://www.youtube.com/watch?v=BEyABFtkeug&t=861s');
