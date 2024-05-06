@@ -1,0 +1,16 @@
+.wave-container {
+  transform: rotateX(40deg);
+  
+  >div {
+    aspect-ratio: 1;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+  }
+}
+
+*::-webkit-scrollbar { display: none; }
+
+.cr.string select {
+  color: black;
+}
