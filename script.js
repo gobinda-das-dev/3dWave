@@ -90,6 +90,10 @@ function togglePause() {
 }
 
 function toggleReverse() {
+  if(params.pause) {
+    params.pause = false
+    gui.updateDisplay();
+  };
   if (params.reverse) {
     tween.reverse();
   } else {
